@@ -1,9 +1,35 @@
 body {
-   padding-top: 40px;
+   padding-top: 0;
+   font-family: "Lato";
+   color: white;
 }
 
 .navbar {
-    text-align: center;
+    background-color: transparent;
+    border: 0px;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    margin: 0;
+}
+
+.dropdown-menu {
+    background-image: url('../images/gray_wash.png');
+}
+
+.dropdown-menu > li >a {
+    color: #800000;
+}
+
+.dropdown-menu > li > a:hover {
+    color: yellow;
+    background-color: blue;
+}
+
+.navbar .nav >li > a:hover {
+    color: yellow;
+    background-color: blue;
 }
 
 #page1 {
@@ -14,22 +40,29 @@ body {
     width: 100%; 
     position: relative; 
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 100px 0;
+    padding: 120px 0;
+    padding-bottom: 155px;
 }
 
 .col-lg-12 {
     text-align: center;
-    font-family: "Lato";
-    color: white;
-    padding-bottom: 400px;
 }
 
 #learnlink {
     padding: 20px;
 }
 
+.col-sm-3 {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    opacity: .85;
+    margin: 10px;
+}
+
 #page2 {
-    background-image: url('../images/grew_wash.png');
+    background-image: url('../images/gray_wash.png');
     height: auto;  
     margin: 0 auto; 
     width: 100%; 
