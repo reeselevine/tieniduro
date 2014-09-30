@@ -24,12 +24,12 @@ body {
 
 .dropdown-menu > li > a:hover {
     color: yellow;
-    background-color: blue;
+    background-color: #000040;
 }
 
 .navbar .nav >li > a:hover {
     color: yellow;
-    background-color: blue;
+    background-color: #000040;
 }
 
 #page1 {
@@ -41,7 +41,7 @@ body {
     position: relative; 
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     padding: 120px 0;
-    padding-bottom: 155px;
+    padding-bottom: 110px;
 }
 
 .col-lg-12 {
@@ -52,7 +52,7 @@ body {
     padding: 20px;
 }
 
-.col-sm-3 {
+.col-sm-4 {
     background-color: gray;
     border-radius: 10px;
     padding: 10px;
